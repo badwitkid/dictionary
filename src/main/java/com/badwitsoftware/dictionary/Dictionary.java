@@ -37,10 +37,7 @@ public class Dictionary {
 
 	private ArrayList<Integer> generateScores(String searchTerm) {
 		ArrayList<Integer> scores = new ArrayList<>(correctWords.size());
-
-		correctWords.forEach(w -> {
-			scores.add(compare(w, searchTerm));
-		});
+		correctWords.forEach(w -> scores.add(compare(w, searchTerm)));
 		return scores;
 	}
 
