@@ -6,8 +6,6 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-import com.badwitsoftware.dictionary.Dictionary;
-
 public class DictionaryTest {
 
 	@Test
@@ -25,7 +23,7 @@ public class DictionaryTest {
 		assertEquals("java", dictionary.findMostSimilar("heaven"));
 		assertEquals("javascript", dictionary.findMostSimilar("javascript"));
 	}
-	
+
 	@Test
 	void testCities() {
 		Dictionary dictionary = new Dictionary(Arrays.asList("dubai", "dublin", "new york", "new jersey"));
