@@ -32,5 +32,4 @@ public class DictionaryTest {
 		assertEquals("dubai", dictionary.findMostSimilar("dublai"));
 		assertEquals("new york", dictionary.findMostSimilar("new yarks"));
 	}
-
 }
