@@ -1,1 +1,3 @@
-rootProject.name = "dictionary"
+rootProject.name = "wordturtle"
+
+include("dictionary")

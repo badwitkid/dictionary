@@ -1,7 +1,5 @@
 plugins {
     `java-library`
-    eclipse
-    idea
 }
 
 java {
@@ -9,10 +7,9 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 repositories {
-    mavenLocal()
+    mavenCentral()
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.3.1")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.3.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
 }
