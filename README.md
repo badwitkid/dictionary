@@ -4,7 +4,7 @@ This library is a replication of the 'did you mean...?' feature on google search
 
 ## Example Usage
 ```java
-import com.wordturtle.dictionary.com.wordturtle.dictionary.Dictionary;
+import com.wordturtle.dictionary.Dictionary;
 
 // create dictionary
 String[] words = new String[] {"cherry", "pineapple", "melon", "strawberry", "raspberry"};
